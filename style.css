@@ -100,6 +100,49 @@ a {
   padding: 10px;
 }
 
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger::after,
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu {
+  display: none;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #eaeaea;
+}
+
+.mobile-nav ul {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.mobile-nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 20px 0;
+  border-bottom: 1px solid #eaeaea;
+  transition: background-color 0.3s ease;
+}
+
+.mobile-nav a:hover,
+.mobile-nav a.active {
+  background-color: #f0f0f0;
+}
+
 /********************* LEWY BOARD *************************/
 
 .mainbody {
@@ -516,4 +559,82 @@ img {
 }
 .track-album {
   width: 30%;
+}
+
+/********************* MEDIA QUERIES *************************/
+
+/* Telefon */
+
+@media only screen and (max-width: 599px) {
+  .mainbody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .intro h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+  }
+  .intro p {
+    font-size: 1em;
+  }
+  .tracks {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+  .track img {
+    margin: 0;
+    position: relative;
+    height: 200px;
+  }
+
+  .orangecard {
+    left: 0;
+    top: 0;
+  }
+
+  .redcard {
+    left: 0;
+    top: 0;
+  }
+
+  .mobile-nav ul {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .main_nav {
+    padding-top: 15px;
+  }
+  footer {
+    position: relative;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  /* Style dla tabletów */
+}
+
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    padding-right: 20px;
+  }
+
+  .mobile-menu.active {
+    display: block;
+  }
 }

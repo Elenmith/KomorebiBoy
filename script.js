@@ -58,6 +58,15 @@
 // Ładowanie contentu na stronie HOME
 
 document.addEventListener("DOMContentLoaded", function () {
+  const hamburgerMenu = document.querySelector(".hamburger-menu");
+  const mobileMenu = document.querySelector(".mobile-menu");
+
+  hamburgerMenu.addEventListener("click", function () {
+    mobileMenu.classList.toggle("active");
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
   const elements = document.querySelectorAll(
     ".intro h1, .intro p, .button1, .lookformore, .github, .text-section, .track img, .image-section img"
   );
