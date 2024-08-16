@@ -7,4 +7,4 @@ The site was created out of a passion for frontend programming using pure HTML5,
 I certainly intend to continue working on the site and systematically improve it. 
 Thanks!
 
-Translated with www.DeepL.com/Translator (free version)
+
