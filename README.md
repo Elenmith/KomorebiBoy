@@ -1,10 +1,31 @@
-Hello! 
-I have created this repository, as well as the entire site for my second project, Komorebi Boy! 
-Komorebi Boy is a music project in lo-fi hip hop, lo-fi jazz and downtempo climates, which has reached over 100,000 views in a few years, which is an amazing achievement for me! 
+# Komorebi Boy - Official Website Repository
 
-The site was created out of a passion for frontend programming using pure HTML5, CSS3 and Javascript. I will gladly accept any comments on the design/optimization of the site's performance or the code solutions themselves.
+### 🎶 About the Project
 
-I certainly intend to continue working on the site and systematically improve it. 
-Thanks!
+Hello! Welcome to the repository for Komorebi Boy, my second project, blending lo-fi hip hop, lo-fi jazz, and downtempo vibes. Over the years, the project has reached over 100,000 views, which is an incredible achievement for me! 🚀
+
+### 🌐 About the Website
+
+The Komorebi Boy website was built from my passion for frontend development, utilizing:
+
+HTML5 for structure
+
+CSS3 for styling
+
+JavaScript for interactivity
+
+I developed this site from scratch, focusing on performance, design, and user experience.
+
+### 💡 Feedback & Future Plans
+
+I am always open to constructive feedback regarding:
+
+Website design & UI improvements
+
+Code optimization & performance enhancements
+
+I definitely plan to keep improving and expanding the website over time. If you have any thoughts, feel free to share them!
+
+Thanks for visiting, and enjoy the Komorebi Boy experience! 🎵
 
 
